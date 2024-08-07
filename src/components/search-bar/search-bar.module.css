@@ -1,0 +1,27 @@
+.forms {
+  display: flex;
+  width: 40rem;
+  height: 5rem;
+  align-items: center;
+}
+
+.input {
+  position: relative;
+  font-size: 2rem;
+  color: white;
+
+  background: none;
+  padding-left: 5rem;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: 0.2rem solid #30363d;
+  border-radius: 0.8rem;
+}
+
+.searchIcon {
+  color:#8D96A0;
+  font-size: 3.5rem;
+  position: absolute;
+  margin: 1rem;
+}

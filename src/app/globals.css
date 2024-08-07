@@ -17,4 +17,5 @@ body {
 main {
   z-index: 0;
   padding-left: 15rem;
+  height: 100vh;
 }
