@@ -1,5 +1,7 @@
 .container {
   padding: 2.3rem;
+  position: absolute;
+  z-index: 1;
 }
 
 .menu {
