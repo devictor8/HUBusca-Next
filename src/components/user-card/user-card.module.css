@@ -1,0 +1,15 @@
+.card {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border: 0.1rem solid #30363d;
+  border-radius: 1.2rem;
+}
+
+.userInfo p {
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 1.6rem;
+} 

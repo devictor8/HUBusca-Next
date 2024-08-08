@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import SearchBar from "@/components/search-bar/search-bar";
+import SearchUser from "@/components/search-bar/search-user";
 
 export default function Page() {
   return (
@@ -15,7 +15,7 @@ export default function Page() {
         <h1 className={styles.title}>HUBusca</h1>
       </header>
 
-      <SearchBar />
+      <SearchUser />
     </div>
   );
 }
