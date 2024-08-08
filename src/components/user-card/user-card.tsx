@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./user-card.module.css";
-import { UserData } from "../search-bar/search-user";
+import { UserData } from "@/types/user-types";
+import { ComponentProps } from "react";
 
-interface UseCardProps {
+interface UseCardProps extends ComponentProps<'div'>{
   userData: UserData;
 }
 
 export default function UserCard(props: UseCardProps) {
-  const { userData } = props
+  const { userData } = props;
 
   return (
-    <div className={styles.card}>
+    <div { ...props }className={styles.card}>
       <Link href={"#"}>
         <Image
           src={userData.avatarURL}

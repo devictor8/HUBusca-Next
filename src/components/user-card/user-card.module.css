@@ -6,10 +6,17 @@
   padding: 2rem;
   border: 0.1rem solid #30363d;
   border-radius: 1.2rem;
+  min-height: 14rem;
+  width: 100%;
 }
 
 .userInfo p {
   margin-bottom: 0.5rem;
   color: white;
   font-size: 1.6rem;
-} 
+}
+
+.card > p {
+  color: white;
+  font-size: 1.8rem;
+}
