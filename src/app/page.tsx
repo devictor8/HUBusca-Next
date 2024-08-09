@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import SearchUser from "@/components/search-bar/search-user";
+import SearchUser from "@/components/search-user/search-user";
 
 export default function Page() {
   return (

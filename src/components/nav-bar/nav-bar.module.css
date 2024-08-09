@@ -12,7 +12,6 @@
   border: 0.1rem solid #30363d;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -42,4 +41,21 @@
   background-color: #30363d36;
 }
 
+@media (max-width: 650px) {
+  .container {
+    display: flex;
+    padding: 0;
+  }
 
+  .menu {
+    position: fixed;
+    width: 94vw;
+    height: 10rem;
+    bottom: 1rem;
+    left: 2.5%;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+}

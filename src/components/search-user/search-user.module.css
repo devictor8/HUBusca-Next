@@ -1,3 +1,5 @@
+
+
 .forms {
   display: flex;
   width: 40rem;
@@ -20,7 +22,7 @@
 }
 
 .searchIcon {
-  color:#8D96A0;
+  color: #8d96a0;
   font-size: 3.5rem;
   position: absolute;
   margin: 1rem;

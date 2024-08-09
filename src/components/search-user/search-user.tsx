@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import styles from "./search-bar.module.css";
+import styles from "./search-user.module.css";
 import { IoSearch } from "react-icons/io5";
 import axios from "axios";
 import UserCard from "../user-card/user-card";
